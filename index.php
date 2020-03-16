@@ -16,10 +16,6 @@
           overflow: auto;
           text-align: justify;
         }
-
-        .borderless td, .borderless th {
-          border: none;
-        }
     </style>
     <title>Scope Resolution Operator</title>
 </head>
