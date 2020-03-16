@@ -12,18 +12,7 @@
         public function __construct($courseName, $studentName) {
             $this->courseName = $courseName;
             $this->studentName = $studentName;
-        }
-
-        public function getName() {
-            return $this->studentName;
-        }
-
-        public function getCourse() {
-            return $this->courseName;
-        }
-
-        public function getMentor() {
-            return self::MENTOR;
+            self::MENTOR;
         }
 
         public function setBatch($batch) {
