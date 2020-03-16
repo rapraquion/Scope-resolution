@@ -47,7 +47,7 @@
         }
 
         public function getInfo() {
-            echo "&nbsp&nbsp&nbspI'm ".$this->studentName.". Batch ".$this->batch." of BoomCamp Training in Boomsourcing, Inc. currently enrolled in ".$this->courseName." course together with our lead mentor, " .self::MENTOR.
-            ".<br /><br />&nbsp&nbsp&nbsp&nbsp&nbspYou can contact me with this email: ".$this->email."<br />or my work number: " .$this->contact." at this working hours: ".$this->officeHrs.".";
+            echo "Name: ".$this->studentName."<br />Course: ".$this->courseName."<br />Mentor: " .self::MENTOR."<br />Batch: ".$this->batch.
+            "<br />Email: ".$this->email."<br />Contact Number: " .$this->contact."<br />Office hours: ".$this->officeHrs;
         }
     }
